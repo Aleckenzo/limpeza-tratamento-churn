@@ -2,9 +2,9 @@
 
 ## Objetivo
 
-Este projeto tem como objetivo realizar a limpeza e o tratamento de um conjunto de dados de uma empresa de telecomunicações, preparando a base para a construção de modelos de Machine Learning.
+Este projeto tem como objetivo realizar a limpeza, o tratamento e a preparação de um conjunto de dados de uma empresa de telecomunicações, estruturando a base para futuras etapas de análise e construção de modelos de Machine Learning.
 
-Durante o processo, foram identificados e tratados problemas relacionados à qualidade dos dados, como valores ausentes, valores vazios, registros duplicados, inconsistências, tipos incorretos e variáveis categóricas, garantindo uma base mais estruturada e adequada para análises e modelagem preditiva.
+Durante o processo, foram identificados e tratados problemas relacionados à qualidade dos dados, como valores ausentes, valores vazios, registros duplicados, inconsistências, tipos incorretos, outliers e variáveis categóricas, garantindo uma base mais consistente e adequada para análises e modelagem preditiva.
 
 O conjunto de dados utilizado apresenta informações relacionadas ao **churn de clientes**, permitindo preparar dados de qualidade para futuros modelos capazes de prever o cancelamento de serviços.
 
@@ -23,20 +23,30 @@ O conjunto de dados utilizado apresenta informações relacionadas ao **churn de
 
 ## Etapas do projeto
 
-### 1. Carregamento dos dados
+### 1. Importação das bibliotecas
+
+* Importação das bibliotecas utilizadas durante o processo de análise, tratamento e visualização dos dados.
+
+### 2. Carregamento da base de dados
 
 * Importação do conjunto de dados em formato JSON.
-* Leitura e estruturação inicial da base utilizando Pandas.
+* Leitura e carregamento inicial da base utilizando Pandas e a biblioteca JSON.
 
-### 2. Análise inicial dos dados
+### 3. Entendimento inicial dos dados
 
 * Visualização das primeiras informações do dataset.
 * Identificação da estrutura dos dados.
-* Verificação dos tipos das variáveis.
 * Análise da quantidade de registros e colunas.
+* Verificação dos tipos das variáveis.
 * Identificação de possíveis problemas na qualidade dos dados.
 
-### 3. Limpeza e tratamento dos dados
+### 4. Normalização dos dados
+
+* Tratamento da estrutura dos dados em formato JSON.
+* Normalização de dados aninhados para transformação em uma estrutura tabular.
+* Conversão dos dados para um formato adequado para análise utilizando Pandas.
+
+### 5. Tratamento e limpeza dos dados
 
 Foram aplicadas técnicas de tratamento e preparação dos dados, incluindo:
 
@@ -48,9 +58,9 @@ Foram aplicadas técnicas de tratamento e preparação dos dados, incluindo:
 * Padronização das informações.
 * Identificação e tratamento de outliers.
 * Tratamento e transformação de variáveis categóricas.
-* Preparação da base para utilização em modelos de Machine Learning.
+* Preparação da base para utilização em análises e modelos de Machine Learning.
 
-### 4. Exportação dos dados tratados
+### 6. Exportação dos dados tratados
 
 Após o processo de limpeza e tratamento, foi gerado um novo dataset em formato CSV, contendo os dados tratados e estruturados para utilização em análises futuras e desenvolvimento de modelos preditivos.
 
@@ -79,6 +89,6 @@ limpeza-tratamento-churn/
 
 ## Resultado
 
-Ao final do projeto, foi obtida uma base de dados limpa, padronizada e preparada para utilização em processos de análise exploratória e construção de modelos de Machine Learning.
+Ao final do projeto, foi obtida uma base de dados limpa, padronizada e estruturada, pronta para utilização em processos de análise exploratória e etapas futuras de construção de modelos de Machine Learning.
 
-Este projeto demonstra a aplicação de técnicas de tratamento e preparação de dados, uma etapa fundamental no ciclo de desenvolvimento de soluções de dados e inteligência artificial.
+Este projeto demonstra a aplicação de técnicas de preparação, limpeza e tratamento de dados, uma etapa fundamental no ciclo de desenvolvimento de soluções de dados e inteligência artificial.
